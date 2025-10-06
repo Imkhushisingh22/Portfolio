@@ -1,0 +1,153 @@
+<html> 
+    <head> 
+        <title> sano portfolio</title>
+        <style> 
+            body{
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+                    #navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: linear-gradient(to right, #32CD32, #7FFF00);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            z-index: 100;
+        }
+
+        #navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar li {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: grey;
+            color: black;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        #navbar li:hover {
+            background-color: pink;
+            color: greenyellow;
+            transform: scale(1.1);
+        }
+
+        #navbar a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: bold;
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 20px;
+            max-width: 900px;
+            margin: auto;
+            border-radius: 15px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        #Portfolio { 
+            text-align: center;
+            font-size: 3em;
+            color: orange;
+            margin-top: 100px;
+        }
+        
+        #About { background-color: #1E1E2F; color: #FF69B4; }
+        #Skills { background-color: #2F4F4F; color: #00FFFF; }
+        #Project { background-color: #4B0082; color: #FFD700; }
+        #Education { background-color: #008080; color: #FFFFFF; }
+        #Contact { background-color: #FF4500; color: #FFFFFF; }
+            
+
+        /* eska mtlb ye ki screen small ho to apne aap chat adjust ho jaee*/
+        @media(max-width:768px){/*ye meadia query h means agr screen 768 se choti ho to */
+            #navbar ul { flex-direction: column; }/*to navbar ka ul jo h vo hosizontoal ho jaega */
+            #navbar li { margin: 5px 0; }/*nav bar ke li element ke opr or nice margin yani gap diya h*/
+            img.profile { float: none; display: block; margin: 20px auto; /*ye image phone me bhi show h esliye ye lga rhe h to eske liye jha image ka link diye h vhi class =profile likhna hoga tbhi ye work karega*/ }
+        }
+
+        </style>
+    </head>
+    <body> 
+                <h1 style="color:orange" id="Portfolio">  <b>  Portfolio  </b>  </h1>
+        <h5> Hii I am SANYA SINGH </h5>
+                <img src="sanyaimg.jpg" class="profile" style="float:right; width:200px; height:200px; border-radius: 50%;" >
+        
+        <ul id="navbar" >
+        <li > <a href="#About"> About me</a> </li>
+            <li> <a href ="#Skills"> Skills</a> </li>   
+            <li> <a href="#Project"> Project</a></li>
+            <li> <a href="#Education">Education </a> </li>
+                                    <li> <a href="#Contact"> Contact</a></li>
+        </ul>
+<section id="About">
+    <h3><b> About me </b> </h3>
+<h4><p>I am a passionate web developer and a student. I love designing websites and learning new technologies. Currently exploring HTML, CSS, and JavaScript.</p></h4></h4>
+    </section>
+
+        <section id="Skills">
+        <h3><b> Skill Section </b> </h3>
+        <h4> <ul type="disc">
+                <li> HTML</li>
+                                <li> CSS</li>
+                                                <li> JavaScript</li>
+                                                                <li> C++, C</li>
+                                                                <li> MS-Word, PowerPoint , Excel</li>
+                                                            </ul> </h4>            
+        </section>
+<section id="Project">
+    <h3> <b>Project Section </b> </h3>
+<h4> <ul type="disc">
+    <li> Personal Portfolio Website</li>
+        <li> TO DO List Using JavaScript</li>
+            <li> Basic Calculator</li>
+ </ul> </h4>
+ </section> 
+
+<section id="Education">
+<h3> <b>Education Section </b> </h3>
+<p> Currently I am pursing BCA at DR.HariSingh Gour Central university Sagar Madhya Pradesh</p>
+<table border="1">
+    <tr>
+        <th> Class</th>
+        <th> Board</th>
+        <th>Year</th>
+    </tr>
+    <tr>
+        <th> 10th</th>
+        <th> CBSE</th>
+        <th> 2021</th>
+    </tr>
+        <tr>
+        <th> 12th</th>
+        <th> CBSE</th>
+        <th> 2023</th>
+    </tr>
+
+</table>
+</section>
+
+<section id="Contact">
+<h3> <b>Contact Section </b> </h3>
+<img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" height="30px" width="30px">
+Email-khushisanya005@gmail.com <br><br>
+<img src="https://img.icons8.com/?size=96&id=16713&format=png" height="40px" width="40px">
+Contact- 9696671179<br><br>
+<img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1024px-Instagram_icon.png"height="30px" width="30px">
+Instagram - i.m_sanyasingh<a href= "https://www.instagram.com/i.m_sanyasingh?igsh=MWp4b2puM3V4OGRjOA=="> Open</a><br><br>
+<img src="data:image/png;base64,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 " height="30px" width="30px">
+    Linkedin - <a href="https://www.linkedin.com/in/sanya-singh-29266433a" >Open </a>
+</section>
+</body>
+</html> 
